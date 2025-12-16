@@ -15,21 +15,30 @@ taxonomies:
 
 params:
   author: "Lê Hoàng Nhật Duy"
-  defaultTheme: auto
+  defaultTheme: light     # luôn sáng
+  disableThemeToggle: true # (tuỳ) ẩn nút đổi sáng/tối
 
   ShowReadingTime: true
-  ShowCodeCopyButtons: true
+  ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
   ShowToc: true
   TocOpen: false
 
+  # Home hiện đại kiểu portfolio
   homeInfoParams:
     Title: "Lê Hoàng Nhật Duy"
     Content: >
-      Blog cá nhân chia sẻ **lập trình mạng / web / API**
-      bằng **Java & JavaScript**.
-      (Đồ án học phần) — tối giản, dễ đọc, có ví dụ code.
+      Blog chia sẻ **Lập trình mạng / Web / API**
+      bằng **Java & JavaScript**. (Dễ đọc – có ví dụ code)
+
+  # Ghim icon social (đẹp hơn)
+  socialIcons:
+    - name: github
+      url: "https://github.com/duyle27"
+    - name: facebook
+      url: "https://facebook.com/..."
 
 menu:
   main:
