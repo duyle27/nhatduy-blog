@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>HTTP on Nhật Duy | Blog Lập Trình Mạng</title>
+    <link>http://localhost:1313/nhatduy-blog/tags/http/</link>
+    <description>Recent content in HTTP on Nhật Duy | Blog Lập Trình Mạng</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Tue, 16 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/nhatduy-blog/tags/http/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gọi API bằng Java HttpClient</title>
+      <link>http://localhost:1313/nhatduy-blog/blog/03-java-httpclient/</link>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nhatduy-blog/blog/03-java-httpclient/</guid>
+      <description>&lt;p&gt;Từ Java 11, Java cung cấp HttpClient để gửi HTTP request một cách đơn giản.&lt;/p&gt;
+&lt;p&gt;HttpClient cho phép:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gửi request GET, POST&lt;/li&gt;
+&lt;li&gt;Nhận response dạng String hoặc JSON&lt;/li&gt;
+&lt;li&gt;Giao tiếp với REST API&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Công cụ này thường được dùng trong các ứng dụng backend Java hoặc khi tích hợp hệ thống.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>HTTP cơ bản trong lập trình mạng</title>
+      <link>http://localhost:1313/nhatduy-blog/blog/01-http-co-ban/</link>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nhatduy-blog/blog/01-http-co-ban/</guid>
+      <description>&lt;h2 id=&#34;http-là-gì&#34;&gt;HTTP là gì?&lt;/h2&gt;
+&lt;p&gt;HTTP (HyperText Transfer Protocol) là giao thức nền tảng của Web, hoạt động theo mô hình &lt;strong&gt;Client – Server&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;thành-phần-của-http&#34;&gt;Thành phần của HTTP&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Request (Client → Server)&lt;/li&gt;
+&lt;li&gt;Response (Server → Client)&lt;/li&gt;
+&lt;li&gt;Method: GET, POST, PUT, DELETE&lt;/li&gt;
+&lt;li&gt;Status code: 200, 404, 500&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ví-dụ&#34;&gt;Ví dụ&lt;/h2&gt;
+&lt;p&gt;Trình duyệt gửi request GET tới server để lấy trang web.&lt;/p&gt;
+&lt;h2 id=&#34;kết-luận&#34;&gt;Kết luận&lt;/h2&gt;
+&lt;p&gt;Hiểu HTTP là nền tảng quan trọng cho lập trình Web và API.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tạo HTTP Server cơ bản bằng Node.js</title>
+      <link>http://localhost:1313/nhatduy-blog/blog/06-nodejs-http-server/</link>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nhatduy-blog/blog/06-nodejs-http-server/</guid>
+      <description>&lt;p&gt;Node.js cho phép tạo server HTTP mà không cần phần mềm trung gian.&lt;/p&gt;
+&lt;p&gt;HTTP Server trong Node.js:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Nhận request từ client&lt;/li&gt;
+&lt;li&gt;Xử lý logic&lt;/li&gt;
+&lt;li&gt;Trả response cho client&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Đây là nền tảng để xây dựng các framework như Express hoặc NestJS.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>TCP on Nhật Duy | Blog Lập Trình Mạng</title>
+    <link>http://localhost:1313/nhatduy-blog/tags/tcp/</link>
+    <description>Recent content in TCP on Nhật Duy | Blog Lập Trình Mạng</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Tue, 16 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/nhatduy-blog/tags/tcp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lập trình Socket TCP cơ bản với Java</title>
+      <link>http://localhost:1313/nhatduy-blog/blog/04-java-socket/</link>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nhatduy-blog/blog/04-java-socket/</guid>
+      <description>&lt;p&gt;Socket TCP cho phép hai chương trình giao tiếp trực tiếp qua mạng.&lt;/p&gt;
+&lt;p&gt;Trong Java:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Server dùng ServerSocket để lắng nghe kết nối&lt;/li&gt;
+&lt;li&gt;Client dùng Socket để kết nối tới server&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Lập trình socket giúp hiểu rõ cách dữ liệu truyền qua mạng ở mức thấp hơn HTTP.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

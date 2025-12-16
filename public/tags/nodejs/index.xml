@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>NodeJS on Nhật Duy | Blog Lập Trình Mạng</title>
+    <link>http://localhost:1313/nhatduy-blog/tags/nodejs/</link>
+    <description>Recent content in NodeJS on Nhật Duy | Blog Lập Trình Mạng</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Tue, 16 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/nhatduy-blog/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tạo HTTP Server cơ bản bằng Node.js</title>
+      <link>http://localhost:1313/nhatduy-blog/blog/06-nodejs-http-server/</link>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nhatduy-blog/blog/06-nodejs-http-server/</guid>
+      <description>&lt;p&gt;Node.js cho phép tạo server HTTP mà không cần phần mềm trung gian.&lt;/p&gt;
+&lt;p&gt;HTTP Server trong Node.js:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Nhận request từ client&lt;/li&gt;
+&lt;li&gt;Xử lý logic&lt;/li&gt;
+&lt;li&gt;Trả response cho client&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Đây là nền tảng để xây dựng các framework như Express hoặc NestJS.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>WebSocket on Nhật Duy | Blog Lập Trình Mạng</title>
+    <link>http://localhost:1313/nhatduy-blog/tags/websocket/</link>
+    <description>Recent content in WebSocket on Nhật Duy | Blog Lập Trình Mạng</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Tue, 16 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/nhatduy-blog/tags/websocket/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WebSocket và ứng dụng thời gian thực</title>
+      <link>http://localhost:1313/nhatduy-blog/blog/09-websocket/</link>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nhatduy-blog/blog/09-websocket/</guid>
+      <description>&lt;p&gt;WebSocket cho phép client và server giao tiếp hai chiều liên tục.&lt;/p&gt;
+&lt;p&gt;WebSocket thường được dùng cho:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Chat realtime&lt;/li&gt;
+&lt;li&gt;Thông báo trực tiếp&lt;/li&gt;
+&lt;li&gt;Ứng dụng cần cập nhật liên tục&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So với HTTP, WebSocket giúp giảm độ trễ và tăng trải nghiệm người dùng.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>JavaScript on Nhật Duy | Blog Lập Trình Mạng</title>
+    <link>http://localhost:1313/nhatduy-blog/tags/javascript/</link>
+    <description>Recent content in JavaScript on Nhật Duy | Blog Lập Trình Mạng</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Tue, 16 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/nhatduy-blog/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fetch API trong JavaScript</title>
+      <link>http://localhost:1313/nhatduy-blog/blog/05-js-fetch/</link>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nhatduy-blog/blog/05-js-fetch/</guid>
+      <description>&lt;p&gt;Fetch API là cách phổ biến để JavaScript gọi API từ trình duyệt.&lt;/p&gt;
+&lt;p&gt;Fetch cho phép:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gửi request GET, POST&lt;/li&gt;
+&lt;li&gt;Nhận dữ liệu JSON từ server&lt;/li&gt;
+&lt;li&gt;Xử lý bất đồng bộ bằng Promise hoặc async/await&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Fetch API thường được dùng trong các website hiện đại.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

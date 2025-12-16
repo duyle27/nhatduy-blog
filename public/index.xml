@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nhật Duy | Blog Lập Trình Mạng</title>
+    <link>http://localhost:1313/nhatduy-blog/</link>
+    <description>Recent content on Nhật Duy | Blog Lập Trình Mạng</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Tue, 16 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/nhatduy-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CORS là gì trong lập trình Web</title>
+      <link>http://localhost:1313/nhatduy-blog/blog/07-cors/</link>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nhatduy-blog/blog/07-cors/</guid>
+      <description>&lt;p&gt;CORS (Cross-Origin Resource Sharing) là cơ chế bảo mật của trình duyệt.&lt;/p&gt;
+&lt;p&gt;CORS ngăn website gọi API từ domain khác nếu server không cho phép.&lt;br&gt;
+Điều này giúp hạn chế các tấn công không mong muốn.&lt;/p&gt;
+&lt;p&gt;Hiểu CORS giúp lập trình viên xử lý lỗi gọi API hiệu quả hơn.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fetch API trong JavaScript</title>
+      <link>http://localhost:1313/nhatduy-blog/blog/05-js-fetch/</link>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nhatduy-blog/blog/05-js-fetch/</guid>
+      <description>&lt;p&gt;Fetch API là cách phổ biến để JavaScript gọi API từ trình duyệt.&lt;/p&gt;
+&lt;p&gt;Fetch cho phép:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gửi request GET, POST&lt;/li&gt;
+&lt;li&gt;Nhận dữ liệu JSON từ server&lt;/li&gt;
+&lt;li&gt;Xử lý bất đồng bộ bằng Promise hoặc async/await&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Fetch API thường được dùng trong các website hiện đại.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gọi API bằng Java HttpClient</title>
+      <link>http://localhost:1313/nhatduy-blog/blog/03-java-httpclient/</link>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nhatduy-blog/blog/03-java-httpclient/</guid>
+      <description>&lt;p&gt;Từ Java 11, Java cung cấp HttpClient để gửi HTTP request một cách đơn giản.&lt;/p&gt;
+&lt;p&gt;HttpClient cho phép:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gửi request GET, POST&lt;/li&gt;
+&lt;li&gt;Nhận response dạng String hoặc JSON&lt;/li&gt;
+&lt;li&gt;Giao tiếp với REST API&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Công cụ này thường được dùng trong các ứng dụng backend Java hoặc khi tích hợp hệ thống.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>HTTP cơ bản trong lập trình mạng</title>
+      <link>http://localhost:1313/nhatduy-blog/blog/01-http-co-ban/</link>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nhatduy-blog/blog/01-http-co-ban/</guid>
+      <description>&lt;h2 id=&#34;http-là-gì&#34;&gt;HTTP là gì?&lt;/h2&gt;
+&lt;p&gt;HTTP (HyperText Transfer Protocol) là giao thức nền tảng của Web, hoạt động theo mô hình &lt;strong&gt;Client – Server&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;thành-phần-của-http&#34;&gt;Thành phần của HTTP&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Request (Client → Server)&lt;/li&gt;
+&lt;li&gt;Response (Server → Client)&lt;/li&gt;
+&lt;li&gt;Method: GET, POST, PUT, DELETE&lt;/li&gt;
+&lt;li&gt;Status code: 200, 404, 500&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ví-dụ&#34;&gt;Ví dụ&lt;/h2&gt;
+&lt;p&gt;Trình duyệt gửi request GET tới server để lấy trang web.&lt;/p&gt;
+&lt;h2 id=&#34;kết-luận&#34;&gt;Kết luận&lt;/h2&gt;
+&lt;p&gt;Hiểu HTTP là nền tảng quan trọng cho lập trình Web và API.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lập trình Socket TCP cơ bản với Java</title>
+      <link>http://localhost:1313/nhatduy-blog/blog/04-java-socket/</link>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nhatduy-blog/blog/04-java-socket/</guid>
+      <description>&lt;p&gt;Socket TCP cho phép hai chương trình giao tiếp trực tiếp qua mạng.&lt;/p&gt;
+&lt;p&gt;Trong Java:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Server dùng ServerSocket để lắng nghe kết nối&lt;/li&gt;
+&lt;li&gt;Client dùng Socket để kết nối tới server&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Lập trình socket giúp hiểu rõ cách dữ liệu truyền qua mạng ở mức thấp hơn HTTP.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>REST API là gì và vì sao được sử dụng phổ biến</title>
+      <link>http://localhost:1313/nhatduy-blog/blog/02-rest-api/</link>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nhatduy-blog/blog/02-rest-api/</guid>
+      <description>&lt;p&gt;REST API là cách xây dựng dịch vụ web dựa trên giao thức HTTP và các tài nguyên (resource).&lt;/p&gt;
+&lt;p&gt;REST sử dụng các HTTP method để thao tác dữ liệu:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GET: lấy dữ liệu&lt;/li&gt;
+&lt;li&gt;POST: thêm dữ liệu&lt;/li&gt;
+&lt;li&gt;PUT: cập nhật dữ liệu&lt;/li&gt;
+&lt;li&gt;DELETE: xoá dữ liệu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;REST API giúp frontend và backend giao tiếp với nhau rõ ràng, dễ mở rộng và phù hợp cho web, mobile app.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>So sánh Session và JWT trong xác thực người dùng</title>
+      <link>http://localhost:1313/nhatduy-blog/blog/08-auth-jwt-session/</link>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nhatduy-blog/blog/08-auth-jwt-session/</guid>
+      <description>&lt;p&gt;Xác thực người dùng là phần quan trọng trong hệ thống web.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Session: server lưu trạng thái đăng nhập&lt;/li&gt;
+&lt;li&gt;JWT: token được gửi kèm mỗi request&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;JWT phù hợp với REST API và mobile app, trong khi Session thường dùng cho web truyền thống.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tạo HTTP Server cơ bản bằng Node.js</title>
+      <link>http://localhost:1313/nhatduy-blog/blog/06-nodejs-http-server/</link>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nhatduy-blog/blog/06-nodejs-http-server/</guid>
+      <description>&lt;p&gt;Node.js cho phép tạo server HTTP mà không cần phần mềm trung gian.&lt;/p&gt;
+&lt;p&gt;HTTP Server trong Node.js:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Nhận request từ client&lt;/li&gt;
+&lt;li&gt;Xử lý logic&lt;/li&gt;
+&lt;li&gt;Trả response cho client&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Đây là nền tảng để xây dựng các framework như Express hoặc NestJS.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WebSocket và ứng dụng thời gian thực</title>
+      <link>http://localhost:1313/nhatduy-blog/blog/09-websocket/</link>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nhatduy-blog/blog/09-websocket/</guid>
+      <description>&lt;p&gt;WebSocket cho phép client và server giao tiếp hai chiều liên tục.&lt;/p&gt;
+&lt;p&gt;WebSocket thường được dùng cho:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Chat realtime&lt;/li&gt;
+&lt;li&gt;Thông báo trực tiếp&lt;/li&gt;
+&lt;li&gt;Ứng dụng cần cập nhật liên tục&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So với HTTP, WebSocket giúp giảm độ trễ và tăng trải nghiệm người dùng.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Profile</title>
+      <link>http://localhost:1313/nhatduy-blog/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nhatduy-blog/about/</guid>
+      <description>&lt;h2 id=&#34;ảnh-cá-nhân&#34;&gt;Ảnh cá nhân&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;Lê Hoàng Nhật Duy&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/nhatduy-blog/images/profile/duy.jpg&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;chứng-chỉ&#34;&gt;Chứng chỉ&lt;/h2&gt;
+&lt;h3 id=&#34;java&#34;&gt;Java&lt;/h3&gt;
+&lt;p&gt;&lt;img alt=&#34;Chứng chỉ Java&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/nhatduy-blog/images/certificates/java.jpg&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;javascript&#34;&gt;JavaScript&lt;/h3&gt;
+&lt;p&gt;&lt;img alt=&#34;Chứng chỉ JavaScript&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/nhatduy-blog/images/certificates/javascript.jpg&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;networking-basics&#34;&gt;Networking Basics&lt;/h3&gt;
+&lt;p&gt;&lt;img alt=&#34;Chứng chỉ Networking Basics&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/nhatduy-blog/images/certificates/networking-basics.jpg&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

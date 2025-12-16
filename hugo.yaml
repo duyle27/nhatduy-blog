@@ -1,0 +1,43 @@
+baseURL: "https://lehoangnhatduy.github.io/nhatduy-blog/"
+languageCode: "vi-vn"
+title: "Nhật Duy | Blog Lập Trình Mạng"
+theme: "PaperMod"
+
+pagination:
+  pagerSize: 6
+
+enableRobotsTXT: true
+
+taxonomies:
+  tag: tags
+  category: categories
+
+params:
+  author: "Lê Hoàng Nhật Duy"
+  defaultTheme: auto
+
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowToc: true
+  TocOpen: false
+
+  homeInfoParams:
+    Title: "Lê Hoàng Nhật Duy"
+    Content: >
+      Blog cá nhân chia sẻ **lập trình mạng / web / API**
+      bằng **Java & JavaScript**.
+      (Đồ án học phần) — tối giản, dễ đọc, có ví dụ code.
+
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Blog
+      url: /blog/
+      weight: 2
+    - name: Profile
+      url: /profile/
+      weight: 3

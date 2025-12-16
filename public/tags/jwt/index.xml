@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>JWT on Nhật Duy | Blog Lập Trình Mạng</title>
+    <link>http://localhost:1313/nhatduy-blog/tags/jwt/</link>
+    <description>Recent content in JWT on Nhật Duy | Blog Lập Trình Mạng</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Tue, 16 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/nhatduy-blog/tags/jwt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>So sánh Session và JWT trong xác thực người dùng</title>
+      <link>http://localhost:1313/nhatduy-blog/blog/08-auth-jwt-session/</link>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nhatduy-blog/blog/08-auth-jwt-session/</guid>
+      <description>&lt;p&gt;Xác thực người dùng là phần quan trọng trong hệ thống web.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Session: server lưu trạng thái đăng nhập&lt;/li&gt;
+&lt;li&gt;JWT: token được gửi kèm mỗi request&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;JWT phù hợp với REST API và mobile app, trong khi Session thường dùng cho web truyền thống.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

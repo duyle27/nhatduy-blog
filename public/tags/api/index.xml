@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>API on Nhật Duy | Blog Lập Trình Mạng</title>
+    <link>http://localhost:1313/nhatduy-blog/tags/api/</link>
+    <description>Recent content in API on Nhật Duy | Blog Lập Trình Mạng</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>vi-vn</language>
+    <lastBuildDate>Tue, 16 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/nhatduy-blog/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>REST API là gì và vì sao được sử dụng phổ biến</title>
+      <link>http://localhost:1313/nhatduy-blog/blog/02-rest-api/</link>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nhatduy-blog/blog/02-rest-api/</guid>
+      <description>&lt;p&gt;REST API là cách xây dựng dịch vụ web dựa trên giao thức HTTP và các tài nguyên (resource).&lt;/p&gt;
+&lt;p&gt;REST sử dụng các HTTP method để thao tác dữ liệu:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GET: lấy dữ liệu&lt;/li&gt;
+&lt;li&gt;POST: thêm dữ liệu&lt;/li&gt;
+&lt;li&gt;PUT: cập nhật dữ liệu&lt;/li&gt;
+&lt;li&gt;DELETE: xoá dữ liệu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;REST API giúp frontend và backend giao tiếp với nhau rõ ràng, dễ mở rộng và phù hợp cho web, mobile app.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
