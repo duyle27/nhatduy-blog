@@ -1,0 +1,18 @@
+:root {
+  --theme: #ffffff;
+  --entry: #ffffff;
+  --primary: #111827;
+  --secondary: #4b5563;
+  --content: #111827;
+  --border: #e5e7eb;
+}
+
+.post-entry {
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  box-shadow: 0 10px 30px rgba(0,0,0,.06);
+}
+
+.post-entry:hover {
+  transform: translateY(-2px);
+}
