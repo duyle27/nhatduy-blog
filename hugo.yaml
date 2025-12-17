@@ -14,17 +14,20 @@ taxonomies:
   category: categories
 
 params:
-  author: "Lê Hoàng Nhật Duy"
-  defaultTheme: light     # luôn sáng
-  disableThemeToggle: true # (tuỳ) ẩn nút đổi sáng/tối
+  defaultTheme: light
+  disableThemeToggle: false
 
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  ShowToc: true
-  TocOpen: false
+  profileMode:
+    enabled: true
+    title: "Nhật Duy | Blog Lập Trình Mạng"
+    subtitle: "Networking • Security • REST • Socket • TCP • WebSocket"
+    imageUrl: "images/profile/duy.jpg"   # nhớ KHÔNG có dấu / đầu
+    imageTitle: "Nhật Duy"
+    buttons:
+      - name: Blog
+        url: "/blog/"
+      - name: Profile
+        url: "/profile/"
 
   # Home hiện đại kiểu portfolio
   homeInfoParams:

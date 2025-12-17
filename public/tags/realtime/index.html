@@ -8,7 +8,7 @@
 <title>Realtime | Nhật Duy | Blog Lập Trình Mạng</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
-<meta name="author" content="Lê Hoàng Nhật Duy">
+<meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/nhatduy-blog/tags/realtime/">
 <link crossorigin="anonymous" href="/nhatduy-blog/assets/css/stylesheet.d0ff81b26e5a68b6d99a99c6c93b25a110cb03681cf50be4de3b30ab7daa1473.css" integrity="sha256-0P&#43;Bsm5aaLbZmpnGyTsloRDLA2gc9Qvk3jswq32qFHM=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/nhatduy-blog/favicon.ico">
@@ -29,6 +29,12 @@
 
     </style>
 </noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    }
+
+</script>
 </head>
 <body class="list" id="top">
     <header class="header">
@@ -36,6 +42,26 @@
         <div class="logo">
             <a href="http://localhost:1313/nhatduy-blog/" accesskey="h" title="Nhật Duy | Blog Lập Trình Mạng (Alt + H)">Nhật Duy | Blog Lập Trình Mạng</a>
             <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
             </div>
         </div>
         <ul id="menu">
@@ -58,7 +84,7 @@
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/nhatduy-blog/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/nhatduy-blog/tags/">Tags</a></div>
+<header class="page-header">
   <h1>
     Realtime
   </h1>
@@ -75,7 +101,7 @@ WebSocket thường được dùng cho:
 Chat realtime Thông báo trực tiếp Ứng dụng cần cập nhật liên tục So với HTTP, WebSocket giúp giảm độ trễ và tăng trải nghiệm người dùng.
 </p>
   </div>
-  <footer class="entry-footer"><span title='2025-12-16 00:00:00 +0000 UTC'>December 16, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Lê Hoàng Nhật Duy</span></footer>
+  <footer class="entry-footer"><span title='2025-12-16 00:00:00 +0000 UTC'>December 16, 2025</span></footer>
   <a class="entry-link" aria-label="post link to WebSocket và ứng dụng thời gian thực" href="http://localhost:1313/nhatduy-blog/blog/09-websocket/"></a>
 </article>
     </main>
@@ -140,6 +166,19 @@ Chat realtime Thông báo trực tiếp Ứng dụng cần cập nhật liên t�
             mybutton.style.opacity = "0";
         }
     };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
 
 </script>
 </body>

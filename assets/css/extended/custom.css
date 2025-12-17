@@ -1,18 +1,79 @@
-:root {
-  --theme: #ffffff;
-  --entry: #ffffff;
-  --primary: #111827;
-  --secondary: #4b5563;
-  --content: #111827;
-  --border: #e5e7eb;
+/* ===== HERO (Home like Wix) ===== */
+.hero{
+  max-width:1200px;
+  margin:0 auto;
+  padding:80px 24px;
+  display:grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap:48px;
+  align-items:center;
 }
 
-.post-entry {
-  border-radius: 16px;
-  border: 1px solid var(--border);
-  box-shadow: 0 10px 30px rgba(0,0,0,.06);
+/* Left */
+.hero-tag{
+  font-weight:700;
+  letter-spacing:2px;
+  opacity:.8;
 }
 
-.post-entry:hover {
-  transform: translateY(-2px);
+.hero-title{
+  font-size:56px;
+  line-height:1.05;
+  font-weight:900;
+  letter-spacing:-1px;
+  margin:18px 0 14px;
+}
+
+.hero-sub{
+  font-size:18px;
+  opacity:.75;
+  margin:0 0 22px;
+}
+
+.hero-actions{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+}
+
+.btn-primary, .btn-outline{
+  padding:12px 18px;
+  border-radius:10px;
+  font-weight:700;
+  text-decoration:none !important;
+  display:inline-block;
+}
+
+.btn-primary{
+  background:#111;
+  color:#fff !important;
+}
+
+.btn-outline{
+  border:2px solid #111;
+  color:#111 !important;
+  background:transparent;
+}
+
+/* Right image */
+.hero-right{
+  display:flex;
+  justify-content:center;
+}
+
+.hero-img{
+  width:min(520px, 100%);
+  aspect-ratio: 4/5;        /* ảnh vuông vức/đẹp */
+  object-fit:cover;
+  border-radius:16px;
+  box-shadow:0 20px 60px rgba(0,0,0,.12);
+}
+
+/* Mobile */
+@media (max-width: 900px){
+  .hero{
+    grid-template-columns: 1fr;
+    padding:48px 18px;
+  }
+  .hero-title{font-size:44px;}
 }
